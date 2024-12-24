@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register in SDFX</title>
+    <style>
+        body{
+            background-image: url("SD.jpg");
+            background-repeat: no-repeat;
+            background-size:cover; 
+            width: 100%;
+            height: 100vh;
+        }
+        form{
+           text-align: justify;  
+              
+        }
+        table{
+            /* background-color: bisque; */
+            margin-left: auto;
+            margin-right: auto; 
+        }
+        label{
+            font-size: large;
+            font-weight: bold;
+        }
+        .button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 8px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+        .button1 {
+            background-color: white; 
+            color: black; 
+            border: 2px solid hsl(123, 69%, 33%);
+        }
+
+        .button1:hover {
+            background-color: hsl(123, 69%, 33%);
+            color: white;
+        }
+        .button {
+            background-color:hsl(0, 79%, 57%);
+            border: none;
+            color: white;
+            padding: 8px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+        .button2 {
+            background-color: white; 
+            color: black; 
+            border: 2px solid hsl(0, 79%, 57%);
+        }
+
+        .button2:hover {
+            background-color: hsl(0, 79%, 57%);
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <table cellspacing="30px">
+        <form action="https://script.google.com/macros/s/AKfycbzz3bNjB6-9uKdwDI-7-nE8IAyKHYkpSiypLvCSFxpUg_kQGCVkK9NcUKv0Ks0-fWgnEQ/exec" method="post">
+       
+            <tr>
+                <td> <label for="Name">Name</label></td>
+                <td> <input type="text" id="Name" name="Name" placeholder="Full Name"><br></td>
+            </tr>
+
+            <tr>
+                <td><label for="Gender">Gender</label></td>
+                <td><input type="radio" id="Gender" name="Gender" value="Male">Male
+                    <input type="radio" id="Gender" name="Gender" value="Female">Female
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="Email">Email</label></td>
+                <td><input type="text" id="Email" name="Email" placeholder="Email"></td>
+            </tr>
+            
+            <tr>
+                <td><label for="Contact">Contact</label></td>
+                <td><input type="tel" id="Contact" name="Contact" placeholder="contact Number" pattern="[0-9]{10}" required/></td>
+            </tr>
+
+            <tr>
+                <td><label for="Whatsapp">Whatsapp</label></td>
+                <td><input type="tel" id="Whatsapp" name="Whatsapp" placeholder="whatsapp Number" pattern="[0-9]{10}" required/></td>
+            </tr>
+
+            <tr>
+                <td><label for="Language">Language</label></td>
+                <td><input type="radio" id="Language" name="Language" value="Marathi">Marathi
+                <input type="radio" id="Language" name="Language" value="Hindi">Hindi</td>
+            </tr>
+         
+            <tr>
+                <td><input type="submit" class="button1"></td>
+                
+            
+                <td><input type="reset" class="button2"></td>
+            </tr>
+            
+            <td width="10px" >
+                <a href="index.html" style="color: black;"><b>HOME</b></a>
+            </td>
+        </form>
+    </table>
+</body>
+</html>

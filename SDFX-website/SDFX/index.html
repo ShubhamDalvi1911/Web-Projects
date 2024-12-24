@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDFX Academy</title>
+    <style>
+        a{
+            color: #fe9900;
+            font-weight: bold;
+            text-decoration-line: none;
+            font-size: x-large;
+        }
+        img{
+            border-radius : 5px ;
+            border-color: black;
+            border-style:ridge;
+        }
+        body{
+            /* width: 100%;
+            height: 100vh; */
+            background-image:url('buy.webp');
+            background-repeat: no-repeat;
+            background-size: cover; 
+            height: 100vh;
+        }
+        .banner{
+            width: 100%;
+            height: 74vh;
+            position: relative;
+            overflow: hidden;
+        }
+        .slider{
+            width: 100%;
+            height: 74vh;
+            position:absolute;
+            top: 0;
+        }
+        #slideImg{
+            width: 100%;
+            height: 74vh;
+            animation: zoom 3s linear infinite;
+        }
+        @keyframes zoom {
+            0% {transform: scale(1.3)}
+            15%{transform:scale(1);}
+            85% {transform:scale(1);}
+            100% {transform:scale (1.3);}
+        }
+        
+        
+</style>
+</head>
+<body onload="slider()" width="100%" height="100vh">
+    <nav>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </nav>
+    <table>
+        <tr>
+            <td width="23.5%">
+                <img src="SD.jpg" height="100px" width="150px"> 
+            </td>
+            <td width="10%">
+                <a href="index.html">HOME</a>
+            </td>
+            <td width="10%">
+                <a href="About.html">ABOUT</a>
+            </td>
+            <td width="10%">
+                <a href="Student_Feedback.html">FEEDBACK</a>
+            </td>
+            <td width="10%">
+                <a href="Education.html">EDUCATION</a>
+            </td>
+            <td width="10%">
+                <a href="Contact.html">CONTACT</a>
+            </td>
+            <td width="10%">
+                <a href="Register.html">REGISTER</a>
+            </td>
+        </tr>
+        <tr>
+            
+            <td></td>
+            <th></th>
+            <th></th>
+            <td colspan="4" style="color: black;">
+                <div class="banner">
+                    <div class="slider">
+                        <img src="images/IMG1.jpg" id="slideImg">
+                    </div>
+                </div>
+                <script>
+                    var slideImg = document.getElementById("slideImg");
+                    var images = new Array(
+                        "images/IMG1.jpg",
+                        "images/IMG2.jpg",
+                        "images/IMG3.jpg",
+                        "images/IMG4.jpg"
+                    );
+                    var len = images.length;
+                    var i = 0;
+                    function slider(){
+                        if(i > len-1){
+                            i = 0;
+                        }
+                        slideImg.src = images[i];
+                        i++;
+                        setTimeout('slider()',3000);
+                    }
+                </script>
+                <p>
+                    <h2 style="background-color: aliceblue;"><span>____Book Our FREE Webinar</span><b style="color: green;">>>></b><a href="Webinar.html"><span style="background-color: aliceblue;">BOOK_NOW</span></a><span style="color: green;"><<<</span>____</h2>
+                </p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

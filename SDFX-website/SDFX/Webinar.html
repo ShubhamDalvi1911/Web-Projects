@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book our FREE Webinar</title>
+    <style>
+        body{
+            background-image: url("forex.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        
+        }
+        table{
+            background-color: azure;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 25vh;
+            margin-bottom: 20vh;
+        }
+        td{
+            font-size:large;
+            font-weight: bold;
+        }
+        .button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 8px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+        .button1 {
+            background-color: white; 
+            color: black; 
+            border: 3px solid hwb(48 12% 32%);
+        }
+
+        .button1:hover {
+            background-color: hwb(48 12% 32%);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <table cellspacing="10px" cellpadding="20px">
+        <form action="https://script.google.com/macros/s/AKfycbx-SxfwcBSDkUTlyhBsZDdb37EV2gREturAHLBPUPLyuiF4wjQRIoObnRIXbEt8ZR4_yQ/exec" method="post">
+       
+            <tr>
+                <td><label for="Name">Name</label></td>
+                <td><input type="text" id="Name" placeholder="Full Name" name="Name"></td>
+            </tr>
+            <tr>
+                <td><label for="Phone">Phone</label></td>
+                <td><input type="tel" id="Phone" name="Phone" placeholder="Phone Number" pattern="[0-9]{10}" required/></td>
+            </tr>
+            <tr>
+                <td><label for="Whatsapp">Whatsapp</label></td>
+                <td><input type="tel" id="Whatsapp"  name="Whatsapp" placeholder="whatsapp Number" pattern="[0-9]{10}" required/></td>
+            </tr>
+            <tr>
+                <td><label for="button">Language</label></td>
+                <td><input type="radio" id="button" name="Language" value="Marathi">Marathi
+                <input type="radio" id="button" name="Language" value="Hindi">Hindi</td>
+            </tr>
+            <tr>
+                <td><input type="submit" class="button1"></td>
+                
+            </tr>
+            <tr>
+                <td><a href="index.html">HOME</a></td>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>
