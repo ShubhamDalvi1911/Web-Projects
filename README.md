@@ -1,5 +1,57 @@
 # Web-Projects
 
+# SDFX Academy Website
+   Welcome to the SDFX Academy website repository! This project is a dynamic and responsive educational website built using HTML, CSS, and JavaScript. It features interactive elements like a sliding image   banner, navigation links, and a call-to-action for booking webinars.
+
+# Table of Contents
+   Project Overview<br>
+   Features<br>
+   Folder Structure<br>
+   Technologies Used<br>
+   Getting Started<br>
+   Usage<br>
+   Contributing<br>
+   License<br>
+# Project Overview
+   The SDFX Academy website is designed to offer information about courses, webinars, and resources. It provides seamless navigation across pages like Home, About, Feedback, Education, Contact, and Register. Users can also book webinars through a dedicated link.
+
+# Features
+   Dynamic Sliding Banner: A visually appealing banner with automated image transitions.<br>
+   Responsive Design: Adapts to various screen sizes for better user experience.<br>
+   Navigation Menu: Quick links to key pages, including Home, About, Feedback, Education, Contact, and Register.<br>
+   Webinar Booking CTA: Direct access to a webinar booking page.<br>
+   Custom Styling: Engaging design elements like animations and hover effects.<br>
+   
+# Folder Structure
+   SDFX-Academy/
+   │
+   ├── images/             # Folder containing banner and other images
+   ├── index.html          # Main HTML file
+   ├── About.html          # About page
+   ├── Student_Feedback.html # Feedback page
+   ├── Education.html      # Education page
+   ├── Contact.html        # Contact page
+   ├── Register.html       # Registration page
+   ├── Webinar.html        # Webinar booking page
+   ├── style.css           # Main CSS file
+   ├── buy.webp            # Background image
+   ├── SD.jpg              # Logo image
+   └── README.md           # Project README file
+   
+# Technologies Used
+   HTML: Structure of the website.<br>
+   CSS: Styling and animations.<br>
+   JavaScript: Functionality for the sliding image banner.<br>
+   
+
+
+
+
+
+
+
+
+
 # Portfolio Website
 
 Welcome to my personal portfolio website! This project showcases my skills, experience, and contact details in a professional and visually appealing way.
