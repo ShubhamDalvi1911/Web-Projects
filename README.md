@@ -3,6 +3,10 @@
 # SDFX Academy Website
    Welcome to the SDFX Academy website repository! This project is a dynamic and responsive educational website built using HTML, CSS, and JavaScript. It features interactive elements like a sliding image   banner, navigation links, and a call-to-action for booking webinars.
 
+![Uploading Screenshot 2024-12-26 153123.png…]()
+![Uploading Screenshot 2024-12-26 153148.png…]()
+
+
 # Table of Contents
    Project Overview<br>
    Features<br>
@@ -23,8 +27,8 @@
    Custom Styling: Engaging design elements like animations and hover effects.<br>
    
 # Folder Structure
-   SDFX-Academy/
-   │
+   SDFX-Academy/<br>
+   │<br>
    ├── images/             # Folder containing banner and other images<br>
    ├── index.html          # Main HTML file<br>
    ├── About.html          # About page<br>
@@ -41,7 +45,7 @@
 # Technologies Used
    HTML: Structure of the website.<br>
    CSS: Styling and animations.<br>
-   JavaScript: Functionality for the sliding image banner.<br><br><hr>
+   JavaScript: Functionality for the sliding image banner.<br><br><hr><hr>
    
 # Portfolio Website
 
