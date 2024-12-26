@@ -41,11 +41,6 @@ Welcome to my personal portfolio website! This project showcases my skills, expe
 - **Font Awesome Icons**
 - **Bootstrap Framework**
 
-## Setup Instructions
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/portfolio-website.git
 ## Contact
   Feel free to reach out if you have any questions or opportunities:<br>
   Email: shubhamdalvi1911@gmail.com<br>
