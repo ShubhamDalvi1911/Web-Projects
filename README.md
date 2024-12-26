@@ -3,8 +3,8 @@
 # SDFX Academy Website
    Welcome to the SDFX Academy website repository! This project is a dynamic and responsive educational website built using HTML, CSS, and JavaScript. It features interactive elements like a sliding image   banner, navigation links, and a call-to-action for booking webinars.
 
-![Uploading Screenshot 2024-12-26 153123.png…]()
-![Uploading Screenshot 2024-12-26 153148.png…]()
+![Screenshot 2024-12-26 153123](https://github.com/user-attachments/assets/c1988316-ba62-418c-b2df-7f83efe2bdb9)
+![Screenshot 2024-12-26 153148](https://github.com/user-attachments/assets/1187821f-a0e2-4f30-b3c1-8a7e1aa23e47)
 
 
 # Table of Contents
