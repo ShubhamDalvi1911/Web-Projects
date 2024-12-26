@@ -25,33 +25,24 @@
 # Folder Structure
    SDFX-Academy/
    │
-   ├── images/             # Folder containing banner and other images
-   ├── index.html          # Main HTML file
-   ├── About.html          # About page
-   ├── Student_Feedback.html # Feedback page
-   ├── Education.html      # Education page
-   ├── Contact.html        # Contact page
-   ├── Register.html       # Registration page
-   ├── Webinar.html        # Webinar booking page
-   ├── style.css           # Main CSS file
-   ├── buy.webp            # Background image
-   ├── SD.jpg              # Logo image
-   └── README.md           # Project README file
+   ├── images/             # Folder containing banner and other images<br>
+   ├── index.html          # Main HTML file<br>
+   ├── About.html          # About page<br>
+   ├── Student_Feedback.html # Feedback page<br>
+   ├── Education.html      # Education page<br>
+   ├── Contact.html        # Contact page<br>
+   ├── Register.html       # Registration page<br>
+   ├── Webinar.html        # Webinar booking page<br>
+   ├── style.css           # Main CSS file<br>
+   ├── buy.webp            # Background image<br>
+   ├── SD.jpg              # Logo image<br>
+   └── README.md           # Project README file<br>
    
 # Technologies Used
    HTML: Structure of the website.<br>
    CSS: Styling and animations.<br>
-   JavaScript: Functionality for the sliding image banner.<br>
+   JavaScript: Functionality for the sliding image banner.<br><br><hr>
    
-
-
-
-
-
-
-
-
-
 # Portfolio Website
 
 Welcome to my personal portfolio website! This project showcases my skills, experience, and contact details in a professional and visually appealing way.
