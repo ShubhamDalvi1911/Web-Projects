@@ -4,8 +4,9 @@
 
 Welcome to my personal portfolio website! This project showcases my skills, experience, and contact details in a professional and visually appealing way.
 
-![Screenshot 2024-12-26 151408](https://github.com/user-attachments/assets/07d51458-ea39-46c0-a7bd-38![Screenshot 2024-12-26 151434](https://github.com/user-attachments/assets/9d808d3e-27ce-4771-b0d0-1c911843c119)
-67e4376af3)
+![Screenshot 2024-12-26 151408](https://github.com/user-attachments/assets/07d51458-ea39-46c0-a7bd-3867e4376af3)
+![Screenshot 2024-12-26 151434](https://github.com/user-attachments/assets/9d808d3e-27ce-4771-b0d0-1c911843c119)
+
 ![Screenshot 2024-12-26 151503](https://github.com/user-attachments/assets/71a5c936-20fc-45fe-b8a4-38fac469ffa1)
 ![Screenshot 2024-12-26 151524](https://github.com/user-attachments/assets/6ed644bd-0405-42dc-8cd8-667d241fbc70)
 ![Screenshot 2024-12-26 151550](https://github.com/user-attachments/assets/a9adcb0a-dd84-4f84-bd7d-d49802b35fbe)
